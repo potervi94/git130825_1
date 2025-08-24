@@ -280,5 +280,59 @@
 #  Завдання 11
 #  Видаліть кілька останніх commit. Використайте ко
 # манду: git reset з опцією --hard.
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git log --oneline -n 3
+# 4eda97b (HEAD -> master, origin/master) Виконання 11 завдання: + для видалення №2
+# 4701710 Виконання 11 завдання: + для видалення №1
+# 0cce507 Виконано 10 завдання
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git reset --hard 0cce507
+# HEAD is now at 0cce507 ╨Т╨╕╨║╨╛╨╜╨░╨╜╨╛ 10 ╨╖╨░╨▓╨┤╨░╨╜╨╜╤П
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $cgit log --oneline --graph --decorate --all
+# * 4eda97b (origin/master) Виконання 11 завдання: + для видалення №2
+# * 4701710 Виконання 11 завдання: + для видалення №1
+# * 0cce507 (HEAD -> master) Виконано 10 завдання
+# * 817ed50 Revert "Зміни у file.txt(Завдання 10)"
+# * b510203 Зміни у file.txt(Завдання 10)
+# * f6eabab Виконано 9 завдання
+# * dcccda8 Виконано 8 завдання
+# * 526176c Виконано 6-7 завдання Змінено file1.txt через echo
+# * 36eb13f Виконано 5 завдання
+# * 1709295 Виконано 4 завдання
+# * a6306a5 Виконано 3 завдання
+# * 37a31af Виконано 2 завдання
+# * e69fe40 Виконано 1 завдання
+# * 343c986 Додано у файл помилку
+# * bf63c42 Створено підпапку і файл з коментарем без розширення .py
+# * 282d46b Git log перед цим комітом
+# * ca9f6ab Git start commit
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git push --force-with-lease origin master
+# Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+# To https://github.com/potervi94/git130825_1.git
+#  + 4eda97b...0cce507 master -> master (forced update)
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git log --oneline --graph --decorate --all
+# * 0cce507 (HEAD -> master, origin/master) Виконано 10 завдання
+# * 817ed50 Revert "Зміни у file.txt(Завдання 10)"
+# * b510203 Зміни у file.txt(Завдання 10)
+# * f6eabab Виконано 9 завдання
+# * dcccda8 Виконано 8 завдання
+# * 526176c Виконано 6-7 завдання Змінено file1.txt через echo
+# * 36eb13f Виконано 5 завдання
+# * 1709295 Виконано 4 завдання
+# * a6306a5 Виконано 3 завдання
+# * 37a31af Виконано 2 завдання
+# * e69fe40 Виконано 1 завдання
+# * 343c986 Додано у файл помилку
+# * bf63c42 Створено підпапку і файл з коментарем без розширення .py
+# * 282d46b Git log перед цим комітом
+# * ca9f6ab Git start commit
 #  Завдання 12
 #  Надішліть наявний репозиторій до сайту GitHub
+# git push
