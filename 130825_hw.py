@@ -184,11 +184,99 @@
 # Unstaged changes after reset:
 # M       130825_hw.py
 # M       main_folder_hw/file.txt
+# Виконано 9-10 завдання
+# git commit --amend -m "Виконано 9 завдання"
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git log --oneline --graph --decorate --all
+# * f6eabab (HEAD -> master) Виконано 9 завдання
+# | * 544affe (origin/master) Виконано 9-10 завдання
+# |/
+# * dcccda8 Виконано 8 завдання
+# * 526176c Виконано 6-7 завдання Змінено file1.txt через echo
+# * 36eb13f Виконано 5 завдання
+# * 1709295 Виконано 4 завдання
+# * a6306a5 Виконано 3 завдання
+# * 37a31af Виконано 2 завдання
+# * e69fe40 Виконано 1 завдання
+# * 343c986 Додано у файл помилку
+# * bf63c42 Створено підпапку і файл з коментарем без розширення .py
+# * 282d46b Git log перед цим комітом
+# * ca9f6ab Git start commit
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git push --force-with-lease
+# Enumerating objects: 9, done.
+# Counting objects: 100% (9/9), done.
+# Delta compression using up to 32 threads
+# Compressing objects: 100% (5/5), done.
+# Writing objects: 100% (5/5), 657 bytes | 164.00 KiB/s, done.
+# Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+# remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+# To https://github.com/potervi94/git130825_1.git
+#  + 544affe...f6eabab master -> master (forced update)
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git log --oneline --graph --decorate --all
+# * f6eabab (HEAD -> master, origin/master) Виконано 9 завдання
+# * dcccda8 Виконано 8 завдання
+# * 526176c Виконано 6-7 завдання Змінено file1.txt через echo
+# * 36eb13f Виконано 5 завдання
+# * 1709295 Виконано 4 завдання
+# * a6306a5 Виконано 3 завдання
+# * 37a31af Виконано 2 завдання
+# * e69fe40 Виконано 1 завдання
+# * 343c986 Додано у файл помилку
+# * bf63c42 Створено підпапку і файл з коментарем без розширення .py
+# * 282d46b Git log перед цим комітом
+# * ca9f6ab Git start commit
+#
 #  Завдання 10
 #  Внесіть зміни у вміст файлу, додайте зміни в індекс,
 # створіть новий commit. Скасуйте зміни в останньому
 # commit шляхом створення нового commit за допомогою
 # команди: git revert.
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ echo "Тестова зміна до завдання 10" >> file.txt
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git add file.txt
+# warning: in the working copy of 'main_folder_hw/file.txt', LF will be replaced by CRLF the next time Git touches it
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git commit -m "Зміни у file.txt(Завдання 10)"
+# [master b510203] ╨Ч╨╝╤Ц╨╜╨╕ ╤Г file.txt(╨Ч╨░╨▓╨┤╨░╨╜╨╜╤П 10)
+#  1 file changed, 2 insertions(+), 1 deletion(-)
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git log --oneline -n 3
+# b510203 (HEAD -> master) Зміни у file.txt(Завдання 10)
+# f6eabab (origin/master) Виконано 9 завдання
+# dcccda8 Виконано 8 завдання
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git revert --no-edit HEAD
+# [master 817ed50] Revert "╨Ч╨╝╤Ц╨╜╨╕ ╤Г file.txt(╨Ч╨░╨▓╨┤╨░╨╜╨╜╤П 10)"
+#  Date: Sun Aug 24 22:12:24 2025 +0300
+#  1 file changed, 1 insertion(+), 2 deletions(-)
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git status
+# On branch master
+# Your branch is ahead of 'origin/master' by 2 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git restore <file>..." to discard changes in working directory)
+#         modified:   ../130825_hw.py
+#
+# no changes added to commit (use "git add" and/or "git commit -a")
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git log --oneline -n 3
+# 817ed50 (HEAD -> master) Revert "Зміни у file.txt(Завдання 10)"
+# b510203 Зміни у file.txt(Завдання 10)
+# f6eabab (origin/master) Виконано 9 завдання
 #  Завдання 11
 #  Видаліть кілька останніх commit. Використайте ко
 # манду: git reset з опцією --hard.
