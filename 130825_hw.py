@@ -68,6 +68,16 @@
 #         modified:   ../130825_hw.py
 #  Завдання 5
 #  Створіть commit на підставі файлів, доданих в індекс.
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git log --oneline --graph --decorate --all
+# * 1709295 (HEAD -> master, origin/master) Виконано 4 завдання
+# * a6306a5 Виконано 3 завдання
+# * 37a31af Виконано 2 завдання
+# * e69fe40 Виконано 1 завдання
+# * 343c986 Додано у файл помилку
+# * bf63c42 Створено підпапку і файл з коментарем без розширення .py
+# * 282d46b Git log перед цим комітом
+# * ca9f6ab Git start commit
 # Використайте команду: git commit.
 #  Завдання 6
 #  Змініть вміст одного з файлів і створіть commit з
