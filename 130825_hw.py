@@ -85,8 +85,11 @@
 #  Завдання 7
 #  Створіть новий файл, наповніть його даними. Після
 # наповнення створіть commit з новим файлом.
-#  1
-# Домашнє завдання
+#  user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ echo "Новий вміст файлу" > file1.txt
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ echo "Ще один рядок" >> file1.txt
 # Завдання 8
 #  Внесіть зміни у вміст файлу, збережіть зміни (не ство
 # рюйте новий commit). Скасуйте зміни в локальній копії
