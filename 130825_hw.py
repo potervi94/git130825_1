@@ -95,7 +95,7 @@
 # рюйте новий commit). Скасуйте зміни в локальній копії
 # файлу за допомогою команди: git checkout.
 # user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
-# $  echo "Новий вміст файлу для завдання 8" > file.txt
+# $  echo "cl" > file.txt
 #
 # user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
 # $ git status
@@ -160,6 +160,30 @@
 #  Внесіть зміни у вміст файлу, додайте зміни в індекс
 # (не створюйте новий commit). Скасуйте зміни в індексі
 # за допомогою команди: git reset.
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git add file.txt
+# warning: in the working copy of 'main_folder_hw/file.txt', LF will be replaced by CRLF the next time Git touches it
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git status
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#   (use "git restore --staged <file>..." to unstage)
+#         modified:   file.txt
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git restore <file>..." to discard changes in working directory)
+#         modified:   ../130825_hw.py
+#
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git reset HEAD file.txt
+# Unstaged changes after reset:
+# M       130825_hw.py
+# M       main_folder_hw/file.txt
 #  Завдання 10
 #  Внесіть зміни у вміст файлу, додайте зміни в індекс,
 # створіть новий commit. Скасуйте зміни в останньому
