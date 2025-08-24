@@ -32,6 +32,40 @@
 # Завдання 4
 #  Додайте два файли в індекс репозиторія за допомогою
 # команди: git add.
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git status
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git restore <file>..." to discard changes in working directory)
+#         modified:   ../130825_hw.py
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#         unindexed.txt
+#         unindexed2.txt
+#
+# no changes added to commit (use "git add" and/or "git commit -a")
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git add .
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git status
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#   (use "git restore --staged <file>..." to unstage)
+#         new file:   unindexed.txt
+#         new file:   unindexed2.txt
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git restore <file>..." to discard changes in working directory)
+#         modified:   ../130825_hw.py
 #  Завдання 5
 #  Створіть commit на підставі файлів, доданих в індекс.
 # Використайте команду: git commit.
