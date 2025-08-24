@@ -94,6 +94,68 @@
 #  Внесіть зміни у вміст файлу, збережіть зміни (не ство
 # рюйте новий commit). Скасуйте зміни в локальній копії
 # файлу за допомогою команди: git checkout.
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $  echo "Новий вміст файлу для завдання 8" > file.txt
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git status
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#         file.txt
+#
+# nothing added to commit but untracked files present (use "git add" to track)
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git checkout -- file.txt
+# error: pathspec 'file.txt' did not match any file(s) known to git
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git add file.txt
+# warning: in the working copy of 'main_folder_hw/file.txt', LF will be replaced by CRLF the next time Git touches it
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git status
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#   (use "git restore --staged <file>..." to unstage)
+#         new file:   file.txt
+#
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git checkout -- file.txt
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git status
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#   (use "git restore --staged <file>..." to unstage)
+#         new file:   file.txt
+#
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git restore --staged file.txt
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git status
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#         file.txt
+#
+# nothing added to commit but untracked files present (use "git add" to track)
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ git checkout -- file.txt
+# error: pathspec 'file.txt' did not match any file(s) known to git
 #  Завдання 9
 #  Внесіть зміни у вміст файлу, додайте зміни в індекс
 # (не створюйте новий commit). Скасуйте зміни в індексі
