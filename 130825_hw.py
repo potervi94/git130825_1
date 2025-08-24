@@ -15,6 +15,17 @@
 # user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1 (master)
 #  Завдання 2
 #  Створіть папку з двома файлами.
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1 (master)
+# $ cd main_folder_hw
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ touch file1.txt file2.txt
+#
+# user@CEPBEPOKK MINGW64 ~/OneDrive/__AIPYTHON52/ALL_TASKS/08_2025/130825/git130825_1/main_folder_hw (master)
+# $ ls -l
+# total 0
+# -rw-r--r-- 1 user 197121 0 Aug 24 21:24 file1.txt
+# -rw-r--r-- 1 user 197121 0 Aug 24 21:24 file2.txt
 #  Завдання 3
 #  Створіть репозиторій у цій папці.
 # Завдання 4
